@@ -1,13 +1,110 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: #f0f2f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: #b38600;
+	padding: 10px;
+}
+
+.nav-wrapper a {
+	margin-left: 50px;
+	margin-right: 50px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+.home-content-wrapper {
+	position: relative;
+	top: 50px;
+	padding-left: 20px;
+	border: 2px solid none;
+	width: 450px;
+	color: #b38600;
+}
+
+.home-content {
+	color: #1d2129;
+	font-size: 1.2rem;
+}
+
+.login-wrapper {
+	position: relative;
+	left: 500px;
+	background: #fff;
+	width: 425px;
+	border-radius: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 5px 5px 5px #dddfe2;
+}
+
+.username {
+	position: relative;
+	border: 1px solid #dddfe2;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	color: #1d2129;
+	padding: 15px;
+	width: 88%;
+}
+
+.username:focus {
+	outline-style: default;
+	outline-color: #b38600;
+}
+
+.password {
+	position: relative;
+	border: 1px solid #dddfe2;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+	color: #1d2129;
+	padding: 15px;
+	width: 88%;
+}
+
+.login-button {
+	position: relative;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 95%;
+	background-color: #b38600;
+	border: none;
+	color: #fff;
+}
+
+.divider {
+	position: relative;
+	background-color: #dddfe2;
+	padding: 1px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.register-direct-wrapper {
+	position: relative;
+	top: -10px;
+	background-color: #D19D00;
+	padding: 10px;
+	width: 90%;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+
+.register-direct {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: #fff;
 }
