@@ -57,7 +57,7 @@ body {
 
 .username:focus {
 	outline-style: default;
-	outline-color: #b38600;
+	outline-color: red;
 }
 
 .password {
